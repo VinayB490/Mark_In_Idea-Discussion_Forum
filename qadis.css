@@ -1,0 +1,108 @@
+*{
+	box-sizing:border-box;
+}
+
+html,body{
+	height: 100%;
+	margin: 0px;
+}
+
+nav{
+
+	font-family: 'Montserrat',Arial, sans-serif;
+}
+
+.main-content{
+	min-height: 100vh;
+}
+
+.info-header{
+	font-family: 'Montserrat', Arial,sans-serif;
+	padding: 1rem 0.5rem;
+}
+
+/*Individual post css*/
+.post{
+	height: 6rem;
+	margin-bottom: 1.5rem;
+}	
+
+.outer{
+	display: flex;
+}
+
+.inner{
+	margin: auto;
+}
+
+/*Sidebar*/
+.sidebar{
+	float:left;
+	width:300px;
+	margin-top:1rem;
+	height:400px;
+	position: absolute;
+}
+#grad1{
+	background-image: linear-gradient(to top,#00ffff,#ff1493);
+}
+
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  width: 238px;
+  position: fixed;
+  z-index: 1;
+  top: 100px;
+  left: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 8px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #2196F3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+.button{
+  position: relative;
+  left: 870px;
+}
+
+
+
+.Question {
+    background: white;
+    border: 1px solid purple;
+  }
+
+.Answer {
+   background: white;
+   border: 1px solid purple;
+}
+

@@ -1,0 +1,26 @@
+*{
+	box-sizing:border-box;
+}
+
+html,body{
+	height: 100%;
+	margin: 0px;
+}
+
+
+nav{
+	font-family: 'Montserrat',Arial, sans-serif;
+}
+
+.main-content{
+	min-height: 100vh;
+}
+
+.form-container{
+	margin: 0% 10% 10% 10%;
+	font-family: 'Montserrat', Arial,sans-serif;
+}
+
+#grad1{
+	background-image: linear-gradient(to top,#00ffff,#ff1493);
+}
